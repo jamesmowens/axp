@@ -7,6 +7,10 @@
     "dev": "webpack -d --watch",
     "build": "webpack -p"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesmowens/axp.git"
+  },
   "author": "James Owens",
   "license": "ISC",
   "dependencies": {
