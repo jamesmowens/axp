@@ -1,7 +1,8 @@
 import React from 'react';
 import {render} from 'react-dom';
 import AppBar from 'material-ui/AppBar';
-import Banner from './Banner.jsx'
+import Banner from './banner.jsx'
+import TileBox from './tilebox.jsx'
 
 class Home extends React.Component{
   render() {
@@ -13,6 +14,7 @@ class Home extends React.Component{
           iconClassNameRight="material-icons-face"
         />
         <Banner />
+        <TileBox />
     </div>
     );
   }

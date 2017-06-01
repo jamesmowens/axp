@@ -9,6 +9,7 @@ class Home extends React.Component{
       // background: 'fixed #222222 center no-repeat',
       'background-size': 'cover',
       backgroundImage: 'url("https://s3.amazonaws.com/jams-test-bucket/Brothers.jpg")',
+      marginBottom: '5px',
     }
 
     return (
