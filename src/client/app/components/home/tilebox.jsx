@@ -22,12 +22,15 @@ class TileBox extends React.Component{
       { title: 'Events', body: text, imgUrl:'http://lorempixel.com/256/256' },
     ];
 
-    return titleData.map(tile => (
-      <Tile
+    //return [(<Tile title="Title" body="Hello World" />),(<Tile title="Title" body="Hello World" />)];
+    return tileData.map((tile) =>{
+      return (<Tile
         title={tile.title}
         body={tile.body}
       />
-      ));
+    );
+  });
+
   }
 
   render() {
@@ -38,8 +41,7 @@ class TileBox extends React.Component{
 
     return (
       <div style={boxStyle}>
-        <Tile title="Title" body="Hello world" />
-        <Tile title="Title" body="Hello world" />
+        {this.createTiles()}
       </div>
     );
   }
