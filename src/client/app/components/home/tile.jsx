@@ -10,13 +10,14 @@ class Tile extends React.Component {
       justifyContent: 'center',
       alignItems: 'center',
       width: '100%',
-      padding: '10px',
       backgroundColor: 'white',
       boxShadow: getShadowForLevel(1),
     }
     const imgStyle = {
       borderRadius: '50%',
       marginRight: '15px',
+      marginTop: '10px',
+      marginBottom: '10px'
     }
     const textBoxStyle = {
       minWidth: '150px',
@@ -30,8 +31,8 @@ class Tile extends React.Component {
       <div style={styles}>
         <img style={imgStyle} src="http://lorempixel.com/256/256" />
         <div style={textBoxStyle}>
-          <h2>hi</h2>
-          <div>This is the body</div>
+          <h2>{this.props.title}</h2>
+          <div>{this.props.body}y</div>
           <div style={{marginTop: '5px'}}>See More</div>
         </div>
       </div>
