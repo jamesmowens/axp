@@ -12,6 +12,7 @@ class Tile extends React.Component {
       width: '100%',
       backgroundColor: 'white',
       boxShadow: getShadowForLevel(1),
+      marginBottom: '5px',
     }
     const imgStyle = {
       borderRadius: '50%',

@@ -39,6 +39,7 @@ class TileBox extends React.Component{
     return (
       <div style={boxStyle}>
         <Tile title="Title" body="Hello world" />
+        <Tile title="Title" body="Hello world" />
       </div>
     );
   }
