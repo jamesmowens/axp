@@ -2,7 +2,7 @@ import React from 'react';
 import AppBar from 'material-ui/AppBar';
 // import Banner from './banner';
 // import TileBox from './tilebox';
-import Card from '../brothers/card';
+import CardBox from '../brothers/cardBox';
 
 class Home extends React.Component { //eslint-disable-line
   render() {
@@ -13,7 +13,7 @@ class Home extends React.Component { //eslint-disable-line
           title="Alpha Chi Rho"
           iconClassNameRight="material-icons-face"
         />
-        <Card />
+        <CardBox />
       </div>
     );
   }
