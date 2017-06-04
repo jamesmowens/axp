@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Home extends React.Component { //eslint-disable-line
+class Banner extends React.Component { //eslint-disable-line
   render() {
     const styles = {
       width: '100%',
@@ -17,4 +17,4 @@ class Home extends React.Component { //eslint-disable-line
   }
 }
 
-export default Home;
+export default Banner;

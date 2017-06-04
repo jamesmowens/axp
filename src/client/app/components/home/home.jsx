@@ -1,9 +1,10 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
-import Banner from './banner';
-import TileBox from './tilebox';
+// import Banner from './banner';
+// import TileBox from './tilebox';
+import Card from '../brothers/card';
 
-class Home extends React.Component{ //eslint-disable-line
+class Home extends React.Component { //eslint-disable-line
   render() {
     return (
 
@@ -12,8 +13,7 @@ class Home extends React.Component{ //eslint-disable-line
           title="Alpha Chi Rho"
           iconClassNameRight="material-icons-face"
         />
-        <Banner />
-        <TileBox />
+        <Card />
       </div>
     );
   }
