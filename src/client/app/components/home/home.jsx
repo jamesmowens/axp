@@ -1,21 +1,20 @@
 import React from 'react';
-import {render} from 'react-dom';
 import AppBar from 'material-ui/AppBar';
-import Banner from './banner.jsx'
-import TileBox from './tilebox.jsx'
+import Banner from './banner';
+import TileBox from './tilebox';
 
-class Home extends React.Component{
+class Home extends React.Component{ //eslint-disable-line
   render() {
     return (
 
-      <div style={{backgroundColor: '#A9A9A9'}} >
+      <div style={{ backgroundColor: '#A9A9A9' }}>
         <AppBar
           title="Alpha Chi Rho"
           iconClassNameRight="material-icons-face"
         />
         <Banner />
         <TileBox />
-    </div>
+      </div>
     );
   }
 }

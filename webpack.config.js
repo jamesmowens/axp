@@ -10,13 +10,17 @@ var config = {
     path: BUILD_DIR,
     filename: 'bundle.js'
   },
+  devtool: 'source-map',
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
   module : {
     rules : [{
         test : /\.jsx?/,
         include : APP_DIR,
         loader : 'babel-loader'
       }, {
-        test: /\.js$/,
+        test: /\.jsx?/,
         include : APP_DIR,
         enforce: 'pre',
         loader : 'eslint-loader'

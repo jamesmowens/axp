@@ -1,7 +1,9 @@
+/*eslint-disable*/
 /* Returns box shadow for given material level as specified by
 *  @param level-The level for the material ie 1 for level 1
 *  @returns a string that can be used for the box shadow
 */
+
 export default function getShadowForLevel(level) {
   switch (level){
     case 1:
