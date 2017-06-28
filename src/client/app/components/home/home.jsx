@@ -8,7 +8,7 @@ class Home extends React.Component { //eslint-disable-line
   render() {
     return (
 
-      <div style={{ backgroundColor: '#A9A9A9' }}>
+      <div style={{ backgroundColor: '#F2F2F2' }}>
         <AppBar
           title="Alpha Chi Rho"
           iconClassNameRight="material-icons-face"
