@@ -15,6 +15,8 @@ export default class Card extends React.Component { // eslint-disable-line
         borderRadius: '5%',
         textAlign: 'center',
         padding: '10px',
+        marginLeft: '10px',
+        marginBottom: '10px',
       },
       img: {
         width: '128',
