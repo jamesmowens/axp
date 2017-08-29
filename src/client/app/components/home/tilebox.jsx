@@ -16,7 +16,7 @@ class TileBox extends React.Component {
       { title: 'History', body: text, imgUrl: 'http://lorempixel.com/256/256' },
       { title: 'Brothers', body: text, imgUrl: 'http://lorempixel.com/256/256' },
       { title: 'Rush', body: text, imgUrl: 'http://lorempixel.com/256/256' },
-      { title: 'Events', body: text, imgUrl: 'http://lorempixel.com/256/256' },
+      { title: 'News', body: text, imgUrl: 'http://lorempixel.com/256/256' },
     ];
 
     return tileData.map(tile =>
