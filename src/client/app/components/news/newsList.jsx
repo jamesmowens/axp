@@ -13,7 +13,7 @@ function getStyles() {
   return {
     container: {
       display: 'flex',
-      padding: '10px',
+      // padding: '10px',
     },
   };
 }

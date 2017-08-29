@@ -25,7 +25,7 @@ function getStyles() {
       maxWidth: '75%',
       flexGrow: 1,
       marginTop: '5px',
-      paddingRight: '5px',
+      // paddingRight: '5px',
       fontSize: '16pt',
     },
   };
